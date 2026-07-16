@@ -41,4 +41,4 @@ def findMaxProfitEfficiently(prices):
 if __name__ == "__main__":
     prices = [7,1,5,3,6,4]
     print("From the list prices max profit can be:", findMaxProfitBruteForce(prices))
-    print("From the list prices max profit can be:", findMaxProfitBruteForce(prices))
+    print("From the list prices max profit can be:", findMaxProfitEfficiently(prices))
